@@ -43,3 +43,9 @@ Data split "Paper" refers to data split used in the associated publication:
 |MiewID-msv3|yes|1.0|Paper|37.2|55.2|88.3|79.4|
 |DINOv3-vit7b16-pretrain-lvd1689m|no|1.0|Paper|32.1|45.9|n/a|n/a|
 |DINOv3-vit7b16-pretrain-lvd1689m|yes|1.0|Paper|48.7|55.2|88.3|81.2|
+
+## Citation
+If you use the FjordFish dataset in your work, please cite the associated paper:
+```
+TBA
+```
