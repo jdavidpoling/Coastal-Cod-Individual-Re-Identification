@@ -2,7 +2,7 @@
 ## Resources for developing individual re-id cod coastal cod (Gadus morhua)
 This project contains code, dataset information and links to model weights for our project on deep-learning-based individual re-id of coastal cod.
 
-For specific information on related datasets see the icons below:
+For specific information on related datasets click the icons below:
 
 <table>
   <tr>
@@ -16,3 +16,18 @@ For specific information on related datasets see the icons below:
 </table>
 
 ## Summary
+Deep-learning-based individual re-identification (Re-ID) acts as a non-invasive way to monitor the movement and behavior of individual animals from visual data. This project seeks to develop re-id for coastal cod based on a combination of videos of tagged fish from a semi-natural mesocosm as well as video observations of fish from the wild.
+
+### Models tested:
+All Rank-k (Rk) values are on unseen individuals (open-set re-id). Expect noticeably higher performance when tested on IDs seen in training.
+"n/a" refers to untested metrics
+Data split "Paper" refers to data split used in the associated publication:
+
+| Model | Fine-tuned | Cod-ID version for fine-tuning | Data Split | R1 | R5 | R1 n<=5 | R1 n<=10 |
+|-------|------------|--------------------------------|------------|----|----|---------|----------|
+|MegaDescriptor-L-384|no|1.0|Paper|39.2|60.0|n/a|n/a|
+|MegaDescriptor-L-384|yes|1.0|Paper|65.9|78.6|90.3|88.9|
+|MiewID-msv3|no|1.0|Paper|16.1|35.5|n/a|n/a|
+|MiewID-msv3|yes|1.0|Paper|37.2|55.2|88.3|79.4|
+|DINOv3-vit7b16-pretrain-lvd1689m|no|1.0|Paper|32.1|45.9|n/a|n/a|
+|DINOv3-vit7b16-pretrain-lvd1689m|yes|1.0|Paper|48.7|55.2|88.3|81.2|
