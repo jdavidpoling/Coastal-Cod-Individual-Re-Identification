@@ -18,6 +18,18 @@ For specific information on related datasets click the icons below:
 ## Summary
 Deep-learning-based individual re-identification (Re-ID) acts as a non-invasive way to monitor the movement and behavior of individual animals from visual data. This project seeks to develop re-id for coastal cod based on a combination of videos of tagged fish from a semi-natural mesocosm as well as video observations of fish from the wild.
 
+Using video for re-id instead of individual still images allows for more diverse information to be accounted for in matching. We do this by using track-level embeddings as described in "https://link.springer.com/content/pdf/10.1007/s11263-025-02709-8.pdf". The figure below shows the diverse information which can be present across a series of frames in a video, allowing for a more informed matching process than using individual images.
+<!--
+Source - https://stackoverflow.com/a/12118349
+Posted by waldyr.ar, modified by community. See post 'Timeline' for change history
+Retrieved 2026-09-23, License - CC BY-SA 4.0
+-->
+
+<p align="center">
+  <img src="https://github.com/jdavidpoling/Coastal-Cod-Individual-Re-Identification/blob/main/viz/track_masks_white.png" />
+</p>
+
+
 ### Models tested:
 All Rank-k (Rk) values are on unseen individuals (open-set re-id). Expect noticeably higher performance when tested on IDs seen in training.
 "n/a" refers to untested metrics
