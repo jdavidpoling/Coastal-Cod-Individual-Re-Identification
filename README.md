@@ -6,8 +6,8 @@ For specific information on related datasets see the icons below:
 
 <table>
   <tr>
-    <td align="center" valign="middle"><a href="https://github.com/jdavidpoling/Cod-ID-Dataset"><img src="viz/codid_logov2.png" alt="Cod-ID" height="120"></a></td>
-    <td align="center" valign="middle"><a href="https://github.com/jdavidpoling/Coastal-Cod-Individual-Re-Identification"><img src="viz/fjordfish_logo.png" alt="Trained model" height="120"></a></td>
+    <td align="center" valign="middle"><a href="https://github.com/jdavidpoling/Cod-ID-Dataset"><img src="viz/codid_logov2.png" alt="Cod-ID" height="300"></a></td>
+    <td align="center" valign="middle"><a href="https://github.com/jdavidpoling/Coastal-Cod-Individual-Re-Identification"><img src="viz/fjordfish_logo.png" alt="Trained model" height="300"></a></td>
   </tr>
   <tr>
     <td align="center">Dataset for ID of individual fish</td>
