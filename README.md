@@ -12,7 +12,7 @@ For specific information on related datasets click the icons below:
     <td align="center" valign="middle"><a href="https://github.com/jdavidpoling/FjordFish"><img src="viz/fjordfish_logo_v2.png" alt="Trained model" height="300"></a></td>
   </tr>
   <tr>
-    <td align="center">Dataset for ID of individual coastal cod</td>
+    <td align="center">Dataset for re-id of individual coastal cod</td>
     <td align="center">Dataset for general North Atlantic fish detection</td>
   </tr>
 </table>
