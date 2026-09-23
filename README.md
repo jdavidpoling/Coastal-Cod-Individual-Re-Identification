@@ -7,10 +7,10 @@ For specific information on related datasets see the icons below:
 <table>
   <tr>
     <td align="center" valign="middle"><a href="https://github.com/jdavidpoling/Cod-ID-Dataset"><img src="viz/codid_logov2.png" alt="Cod-ID" height="300"></a></td>
-    <td align="center" valign="middle"><a href="https://github.com/jdavidpoling/Coastal-Cod-Individual-Re-Identification"><img src="viz/fjordfish_logo.png" alt="Trained model" height="300"></a></td>
+    <td align="center" valign="middle"><a href="https://github.com/jdavidpoling/FjordFish"><img src="viz/fjordfish_logo_v2.png" alt="Trained model" height="300"></a></td>
   </tr>
   <tr>
-    <td align="center">Dataset for ID of individual fish</td>
+    <td align="center">Dataset for ID of individual coastal cod</td>
     <td align="center">Dataset for general North Atlantic fish detection</td>
   </tr>
 </table>
