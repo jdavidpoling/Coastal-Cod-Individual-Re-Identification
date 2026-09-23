@@ -2,6 +2,8 @@
 ## Resources for developing individual re-id cod coastal cod (Gadus morhua)
 This project contains code, dataset information and links to model weights for our project on deep-learning-based individual re-id of coastal cod.
 
+!! This Repo is a Work in Progress !! Full functionality will be implemented by publishing of the associated paper.
+
 For specific information on related datasets click the icons below:
 
 <table>
@@ -43,6 +45,9 @@ Data split "Paper" refers to data split used in the associated publication:
 |MiewID-msv3|yes|1.0|Paper|37.2|55.2|88.3|79.4|
 |DINOv3-vit7b16-pretrain-lvd1689m|no|1.0|Paper|32.1|45.9|n/a|n/a|
 |DINOv3-vit7b16-pretrain-lvd1689m|yes|1.0|Paper|48.7|55.2|88.3|81.2|
+
+## Fine-tuned model weights:
+Model weights can be found in the linked Huggingface collection: [Cod Re-ID Models HF](https://hf.co/collections/jdpoling/cod-re-id)
 
 ## Citation
 If you use the FjordFish dataset in your work, please cite the associated paper:
