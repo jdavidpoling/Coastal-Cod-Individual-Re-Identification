@@ -20,7 +20,7 @@ Deep-learning-based individual re-identification (Re-ID) acts as a non-invasive 
 
 ### Models tested:
 All Rank-k (Rk) values are on unseen individuals (open-set re-id). Expect noticeably higher performance when tested on IDs seen in training.
-"n/a" refers to untested metrics /n
+"n/a" refers to untested metrics
 Data split "Paper" refers to data split used in the associated publication:
 
 | Model | Fine-tuned | Cod-ID version for fine-tuning | Data Split | R1 | R5 | R1 n<=5 | R1 n<=10 |
