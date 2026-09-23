@@ -47,7 +47,7 @@ Data split "Paper" refers to data split used in the associated publication:
 |DINOv3-vit7b16-pretrain-lvd1689m|yes|1.0|Paper|48.7|55.2|88.3|81.2|
 
 ## Fine-tuned model weights:
-Model weights can be found in the linked Huggingface collection: [Cod Re-ID Models HF](https://hf.co/collections/jdpoling/cod-re-id)
+Fine-tuned model weights can be found in the linked Huggingface collection: [Cod Re-ID Models HF](https://hf.co/collections/jdpoling/cod-re-id)
 
 ## Citation
 If you use the FjordFish dataset in your work, please cite the associated paper:
