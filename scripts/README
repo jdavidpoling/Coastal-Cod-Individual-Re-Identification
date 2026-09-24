@@ -6,3 +6,5 @@ This folder contains relevant scripts.
 2.  sweep.py: script to program and run parameter search. 
     hooks up to "fine-tuning.py"
     requires a unique version of the fine-tuning script for each model the user wants to store in the script simultaneously
+
+Scripts in this folder were made with assistance from Claude Opus v.4.6, 4.8
