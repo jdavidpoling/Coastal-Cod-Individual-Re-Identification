@@ -1,1 +1,8 @@
-README
+## Scripts
+
+This folder contains relevant scripts.
+
+1.  fine-tuning: Fine-tuning script for foundation models. Tested on MegaDescriptor, MiewID, DINOv3
+2.  sweep.py: script to program and run parameter search. 
+    hooks up to "fine-tuning.py"
+    requires a unique version of the fine-tuning script for each model the user wants to store in the script simultaneously
